@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
+    //test admin controller
     public function index()
     {
         return view('admin.index');
